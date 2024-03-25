@@ -10,7 +10,7 @@ const {
     deleteMenu,
     updateMenu,
     placeOrder
-} = require('../dal/restaurants')
+} = require('../services/restaurants')
 
 const express = require('express')
 const router = express.Router();
